@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">    
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="main-bg">
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu main-bg"> 
+      <div class="main-content menu-content">
+        <h1 class="logo">LOGO</h1>
+        <nav> 
+            <ul onclick="getElementById('close-menu').checked = false;"> 
+                <li> <a href="#intro">Intro</a> </li>
+                <li> <a href="#top3">Top 3</a> </li>
+                <li> <a href="#grid-one">First Grid</a> </li>
+                <li> <a href="#gallery">Gallery</a> </li>
+                <li> <a href="#pricing">Pricing</a> </li>
+                <li> <a href="#contact">Contact</a> </li>
+
+
+            </ul>
+        </nav>
+      </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="intro" class="intro main-bg section">
+
+      <div class="menu-spacing"></div>
+
+      <div class="main-content intro-content">
+
+        <div class="intro-text-content">
+          <h2>January brings us Firefox 85</h2>
+          <p>To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox. </p>
+        </div>
+
+        <div class="intro-img">
+          <img src="assets/img/javascript-not-optimized.svg" alt="Um desenho de um homem segurando a logo de csss, uma mulher empurrando a logo de javascript e um outro homem segurando a logo de html">
+        </div>
+
+      </div>
+    </section>
+
+
+    <section id="top3" class="white-bg section">
+      <div class="main-content top3-content"> 
+        <h2>Top 3 Jobs</h2>
+        <p>Apple today also introduced macOS Big Sur, the next major release of macOS, which delivers its biggest update in more than a decade and includes technologies that will ensure a smooth and seamless transition to Apple silicon.</p>
+
+        <p>Developers can easily convert their existing apps to run on Apple silicon, taking advantage of its powerful technologies and performance. And for the first time, developers can make their iOS and iPadOS apps available on the Mac without any modifications.</p>
+
+        <p>To help developers get started with Apple silicon, Apple is also launching the Universal App Quick Start Program, which provides access to documentation, forums support, beta versions of macOS Big Sur and Xcode 12, and the limited use of a Developer Transition Kit (DTK), a Mac development system based on Apple’s A12Z Bionic System on a Chip (SoC).</p>
+      </div>
+    </section>
+
+    <section id="grid-one" class="grid-one main-bg section">
+      <div class="main-content grid-one-content">
+         <h2 class="grid-main-heading"> First Grid</h2>
+         <p class="grid-description"> Breve descrição</p>
+
+         <div class="grid">
+           <article>
+             <h3>Teste 1</h3>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam tempora voluptas labore dolorum? Itaque ad non sunt alias quaerat laboriosam amet nesciunt, officiis iusto vitae aspernatur. Accusantium dolore in quam!</p>
+           </article>
+
+           <article>
+             <h3>Teste 2</h3>
+             <p>Lorem ipsum dolor sit amet consectetur  adipisicing elit. Voluptatum dignissimos omnis nostrum iure neque tempore placeat aperiam, sit quaerat mollitia modi reprehenderit optio harum error nobis totam. Aperiam, illo eum!</p>
+           </article>
+
+           <article>
+            <h3>Teste 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur  adipisicing elit. Voluptatum dignissimos omnis nostrum iure neque tempore placeat aperiam, sit quaerat mollitia modi reprehenderit optio harum error nobis totam. Aperiam, illo eum!</p>
+          </article>
+         </div>
+
+      </div>
+    </section>
+
+     <section id="gallery" class="grid-one white-bg section">
+      <div class="main-content grid-one-content">
+         <h2 class="grid-main-heading"> Gallery</h2>
+         <p class="grid-description"> Breve descrição</p>
+
+         <div class="grid">
+           <div class="gallery-img"> 
+             <img src="https://source.unsplash.com/random/360x360?r=1" alt="random image from unsplash">
+           </div>
+
+           <div class="gallery-img"> 
+            <img src="https://source.unsplash.com/random/360x360?r=2" alt="random image from unsplash">
+          </div>
+
+          <div class="gallery-img"> 
+            <img src="https://source.unsplash.com/random/360x360?r=3" alt="random image from unsplash">
+          </div>
+
+          <div class="gallery-img"> 
+            <img src="https://source.unsplash.com/random/360x360?r=4" alt="random image from unsplash">
+          </div>
+
+          <div class="gallery-img"> 
+            <img src="https://source.unsplash.com/random/360x360?r=5" alt="random image from unsplash">
+          </div>
+
+          <div class="gallery-img"> 
+            <img src="https://source.unsplash.com/random/360x360?r=6" alt="random image from unsplash">
+          </div>
+
+         </div>
+
+      </div>
+    </section>
+
+    <section id="pricing" class="main-bg section">
+      <div class="main-content top3-content">
+
+         <h2>Pricing</h2>
+         <p>Apple today also introduced macOS Big Sur, the next major release of macOS, which delivers its biggest update in more than a decade and includes technologies that will ensure a smooth and seamless transition to Apple silicon next major release of macOS, which delivers its biggest update.</p>
+
+       <div class="responsive-table">
+        <table>
+         <caption>Pricing table</caption>
+
+         <thead>
+           <tr>
+             <th>Title 1</th>
+             <th>Title 2</th>
+             <th>Title 3</th>
+             <th>Title 4</th>
+             <th>Title 5</th>
+           </tr>
+         </thead>
+
+         <tbody>
+           <tr>
+             <td>Content 1</td>
+             <td>Content 2</td>
+             <td>Content 3</td>
+             <td>Content 4</td>
+             <td>Content 5</td>
+           </tr>
+           <tr>
+             <td>Content 1</td>
+             <td>Content 2</td>
+             <td>Content 3</td>
+             <td>Content 4</td>
+             <td>Content 5</td>
+           </tr>
+           <tr>
+             <td>Content 1</td>
+             <td>Content 2</td>
+             <td>Content 3</td>
+             <td>Content 4</td>
+             <td>Content 5</td>
+           </tr>
+         </tbody>
+
+         <tfoot>
+           <tr>
+            <td></td>
+            <td></td>
+            <td>Testando</td>
+            <td></td>
+            <td></td>
+           </tr>
+         </tfoot>
+
+        </table>
+       </div> 
+      </div>
+    </section>
+
+    <section class="menu-spacing">
+      <div class="menu-spacing"></div>
+    </section>
+
+    <section id="contact" class="intro main-bg section">
+
+      <div class="menu-spacing"></div>
+      
+      <div class="main-content intro-content">
+
+        <div class="intro-text-content">
+          <h2>January brings us Firefox 85</h2>
+          <p>To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox. </p>
+        </div>
+
+        <div class="intro-img">
+          <img src="assets/img/contact-us.svg" alt="Símbolos de meios de comunicação">
+        </div>
+
+        <div class="contact-form">
+          <fieldset class="form-grid">
+            <legend>Contact-me</legend>
+
+            <div class="form-group">
+              <label for="first-name">First name</label>
+              <input type="text" name="first-name" id="first-name" placeholder="Your name">
+            </div>
+
+            <div class="form-group">
+              <label for="last-name">Last name</label>
+              <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+            </div>
+
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" name="email" id="email" placeholder="Your e-mail">
+            </div>
+
+            <div class="form-group full-width">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message..."></textarea>
+            </div>
+
+            <div class="form-group full-width">
+              <button type="submit">Send message</button>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer">
+      <p>Feito com <span class="heart">❤</span> por Kaique Oliveira</p>
+    </footer>
+
+    <a class="back-to-top" href="#intro">➤</a>
+</body>
+</html>
